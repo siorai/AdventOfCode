@@ -98,6 +98,3 @@ def part2():
              highestGuard = int(eachGuard)
              highestMinuteTime = max(guardSleepSchedule[eachGuard], key=lambda k: guardSleepSchedule[eachGuard][k])
     return highestMinuteTime * highestGuard 
-
-
-    
